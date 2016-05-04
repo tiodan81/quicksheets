@@ -1,0 +1,36 @@
+#Adding Something to the DOM
+
+**We can only add ONE THING AT A TIME.**
+
+As an example, let's add a `<p>` to an existing `<div>`
+
+This is our existing HTML:
+
+```HTML
+<div id="parentElement">
+</div>
+```
+
+###Steps
+
+1. Make a JavaScript reference (a variable) to the parent element
+2. Create the child element we want to add
+3. Give the child content - in this case, the content is text
+4. Append the child to the parent
+
+**JavaScript:** 
+
+```javascript
+var parent = document.getElementByID('parentElement');  
+var child = document.createElement('p');  
+child.textContent = 'Some words we want in our p element';  
+parent.appendChild(child);
+```
+
+**Finished HTML:**
+
+```HTML
+<div id="parent">
+  <p>Some words we want in our p element</p>
+</div>
+```
