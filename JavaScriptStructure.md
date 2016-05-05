@@ -10,10 +10,10 @@
 var globalVariable1 = 'hello';
 var globalVariable2 = [0, 1, 2];
 
-//note that we can declare this before the function declaration
-//when we call this, we will get 
-//sam = { firstName: 'Sam', lastName: 'Hamm' }
+//create an instance of PersonConstructor and save it to the sam variable
+//note that we can do this before the constructor function declaration
 var sam = new PersonConstructor('Sam', 'Hamm');
+//now sam = { firstName: 'Sam', lastName: 'Hamm' }
 
 //then put any object constructors
 function PersonConstructor(first, last) {
@@ -22,9 +22,10 @@ function PersonConstructor(first, last) {
 }
 
 //then put any prototype functions that go with the object constructor
-//you can't call this function until after you declare a 'new PersonConstructor'
+//call this function on an instance of PersonConstructor
 PersonConstructor.prototype.sayHello = function() {
 	console.log('Hello, my name is ' + this.firstName + ' ' + this.lastName);
+}
 
 //then put regular function declarations
 function firstFunction(parameter) {
