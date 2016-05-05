@@ -17,7 +17,8 @@ var myObject = {
 }	
 
 //CALL the method
-myObject.myMethod();  //logs 'Dan Schwartz' to the browser console.
+myObject.myMethod();  
+//logs 'Dan Schwartz' to the browser console.
 
 //DECLARE another property
 myObject.age = 'old';
@@ -28,6 +29,6 @@ myObject.anotherMethod = function() {
 }
 
 //CALL the new method and save the result to a new variable
-//after this call, danAge will equal 'old'
 var danAge = myObject.anotherMethod();
+//now danAge equals 'old'
 ```	
