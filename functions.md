@@ -19,11 +19,11 @@ function someFunction() {
 	console.log('I wish I had parameters');
 }
 
-//CALL the function
+//CALL the function.
+someFunction();
 //because we're not using any parameters, 
 //we don't need arguments in the function call.
 //but that means the function always does the exact same thing. 
-someFunction();
 //it will always log 'I wish I had parameters.'
 
 //DECLARE a function with parameters
@@ -33,13 +33,13 @@ function multiply(num1, num2) {
 }
 
 //CALL the function 
+multiply(2, 3);
 //The values in the parentheses are the arguments for this function call.
-//When the function executes, num1 & num2 will take the values of these arguments 
-multiply(2, 3);	
-//will log 2 in the browser console 
+//When the function executes, num1 & num2 will take the values of these arguments. 
+//This call will log 2 in the browser console 
 //and return 6
 
-//if we wanted to save the result to a variable, we could do
+//if we want to save the result to a variable, we can do
 var result1 = multiply(2, 3);
 var result2 = multiply(4, 5);
 //now result1 = 6 - the return value of the first function call

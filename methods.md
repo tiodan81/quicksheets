@@ -7,6 +7,7 @@ When you call the method, include the object name: `objectName.methodName();`
 ```javascript
 //DECLARE a method inside the object
 var myObject = {
+	//firstName & lastName are object properties
 	firstName: 'Dan',
 	lastName: 'Schwartz',
 	 //here's our method. inside the method, 

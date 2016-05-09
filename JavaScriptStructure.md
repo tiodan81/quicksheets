@@ -24,7 +24,7 @@ function PersonConstructor(first, last) {
 //then put any prototype functions that go with the object constructor
 //call this function on an instance of PersonConstructor
 PersonConstructor.prototype.sayHello = function() {
-	console.log('Hello, my name is ' + this.firstName + ' ' + this.lastName);
+	console.log('Hello, my name is ' + this.firstName);
 }
 
 //then put regular function declarations
@@ -46,4 +46,4 @@ secondFunction(globalVariable2);
 //		1
 //		2
 sam.sayHello();
-//logs 'Hello, my name is Sam Hamm'
+//logs 'Hello, my name is Sam'

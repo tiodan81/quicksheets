@@ -14,7 +14,7 @@ This is our existing HTML:
 ###Steps
 
 1. Make a JavaScript reference (a variable) to the parent element
-2. Create the child element we want to add
+2. Create the child element we want to add and save it as a variable
 3. Give the child content - in this case, the content is text
 4. Append the child to the parent
 
