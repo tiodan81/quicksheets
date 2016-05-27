@@ -1,3 +1,2 @@
-#Pseudocoding
-####wherein we plan our ideas in English, then turn them into code
-
+# Pseudocoding
+#### *wherein we plan our ideas in plain language, then turn them into code*
