@@ -1,6 +1,6 @@
-#JavaScript Objects
+# JavaScript Objects
 
-##What Is an Object?
+## What Is an Object?
 JavaScript objects are convenient & powerful ways to group data and functions. They store data as **properties**, which are represented as `key: value` pairs, and can have **methods**, which are functions associated with the object.
 
 Similar to arrays, but with semantic element names:
@@ -21,12 +21,12 @@ Arrays are great for storing similar pieces of data, but get confusing if they c
 var samArray = ['Sam', null, 'Hamm', 0, true, ['Nadia', 'Spencer', 'Dan']];
 ```
 
-##Notation
-We can declare objects using object literal notation: 
+## Notation
+We can declare objects using object literal notation:
 
-1. curly braces
+1. curly braces `{}`
 2. key: value pairs - colon between k/v, comma after each pair (except the last one)
-3. 	properties - any data type, including other objects
+3. properties - any data type, including other objects
 4. methods - function(s) assoc. w/the object
 
 ```javascript
@@ -45,14 +45,14 @@ var genericObject = {
 
 ```javascript
 var sam = {
-  //properties	
+  //properties
   firstName: 'Sam',
   middleName: null,
   lastName: 'Hamm',
   rating: 0,
   isABoss: true,
   underlings: ['Nadia', 'Spencer', 'Dan'],
-  
+
   //methods
   getRating: function() {
   	return this.rating;
@@ -63,7 +63,7 @@ var sam = {
  };
 ```
 
-##Accessing Properties & Calling Methods
+## Accessing Properties & Calling Methods
 1. accessing properties
 	1. dot notation
 	2. bracket notation - w/string, outside variable. multi-word keys
@@ -71,9 +71,9 @@ var sam = {
 	1. `objectName.method();`
 	2. methods declared in context of an object must be called in that context, so calling `method();` gives an error
 
-##Modifying
+## Modifying Objects
 1. adding new properties, methods
-	1. use `=` instead of `:` because we're assigning a value 
+	1. use `=` instead of `:` because we're assigning a value
 
 ```javascript
 sam.employer = {
@@ -86,19 +86,19 @@ sam.logName = function() {
 };
 ```
 
-2. clearing & removing 
+2. clearing & removing
 	1. set value to '', 0, or null
-	2. delete	operator
+	2. `delete`	operator
 
-##Built-in Objects
+## Built-in Objects
 1. String, Array, Document, Math
 
-##Prototypes
+## Prototypes
 1. Every object has a prototype. It can be assigned explicitly, or is set to the global Object by default
 2. All objects have the props & methods of their prototype
-3. If a prop or method can't be found on the object itself, the JS engine will look up the prototype chain for it 
+3. If a prop or method can't be found on the object itself, the JS engine will look up the prototype chain for it
 
-##this
+## this
 1. complicated!
 2. changes based on context.
 3. when calling a method in the context of an object, `this = the object`

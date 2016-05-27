@@ -1,9 +1,9 @@
 #Getting Started with Git
 
-*note: terminal commands are shown like this:* `$ command`. *The $ indicates your command prompt.*
+*note: terminal commands are shown like this:* `$ command`. *The $ represents your command prompt.*
 
-verifying your git installation:  `$ which git`  
-you should see something like `/usr/local/bin/git`
+Verifying your git installation:  `$ which git`  
+You should see something like `/usr/local/bin/git`
 
-Setting your editor for merge conflicts: 
+Setting your editor for merge conflicts:
 `$ git config --global core.editor atom`

@@ -2,13 +2,16 @@
 
 1. Declare Global Variables
 2. Declare Constructor functions - name should be capitalized!
-3. Declare regular functions
-4. Call functions 
+3. Declare prototype methods
+4. Declare regular functions
+5. Add event listeners
+6. Call functions
 
 ```javascript
 //declare global variables at the top of your file
 var globalVariable1 = 'hello';
 var globalVariable2 = [0, 1, 2];
+var myForm = document.getElementById('my-form');
 
 //create an instance of PersonConstructor and save it to the sam variable
 //note that we can do this before the constructor function declaration
@@ -38,10 +41,17 @@ function secondFunction(myArray) {
 	}
 }
 
+function formHandler(event) {
+	console.log(event.target);
+}
+
+//then add any event listeners
+myForm.addEventListener('submit', formHandler);
+
 //finally, call your functions
-firstFunction(globalVariable1);	
+firstFunction(globalVariable1);
 //logs 'hello'
-secondFunction(globalVariable2);	
+secondFunction(globalVariable2);
 //logs  0
 //		1
 //		2
