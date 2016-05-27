@@ -33,6 +33,7 @@ Git will insert merge conflict markers in your code to indicate the code that ca
 Everything between `HEAD` and `=======` will be the version in the branch where you issued the `merge` command; the rest will be the version found in the code you are trying to merge.
 
 Your task is to decide what to keep and what to discard from `<one version>` and `<the other version>`. **Everyone involved in writing the conflicting code should participate in this step.**
+
 1. Compare the code in `<one version>` and `<the other version>`
 2. Remove any duplicate lines
 3. Find any lines that have been modified and remove the old version
