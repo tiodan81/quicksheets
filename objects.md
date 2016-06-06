@@ -27,7 +27,7 @@ We can declare objects using object literal notation:
 1. curly braces `{}`
 2. key: value pairs - colon between k/v, comma after each pair (except the last one)
 3. properties - any data type, including other objects
-4. methods - function(s) assoc. w/the object
+4. methods - function(s) associated with the object
 
 ```javascript
 var emptyObject = {};

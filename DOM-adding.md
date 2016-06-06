@@ -18,10 +18,10 @@ This is our existing HTML:
 3. Give the child content - in this case, the content is text
 4. Append the child to the parent
 
-**JavaScript:** 
+**JavaScript:**
 
 ```javascript
-var parent = document.getElementByID('parentElement');  
+var parent = document.getElementById('parentElement');  
 var child = document.createElement('p');  
 child.textContent = 'Some words we want in our p element';  
 parent.appendChild(child);
