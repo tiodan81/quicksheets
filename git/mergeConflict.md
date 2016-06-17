@@ -2,7 +2,7 @@
 
 If you make a pull request on GitHub and cannot automatically merge, GitHub will give you the following instructions for resolving the merge conflict from the command line (all values in `<>` are placeholders):
 
-1. `git checkout -b <temp-branchname> master`
+1. `git checkout -b <temp-branchname> origin/master`
 2. `git pull https://github.com/<user>/<repo>.git master`
 3. `git checkout master`
 4. `git merge --no-ff <temp-branchname>`
