@@ -16,7 +16,7 @@ Include a `<script>` in `index.html` that links to a CDN
 
 In your terminal, navigate to the root of your project and do:
 
-```bash
+```
 $ npm init
 ```
 
@@ -24,7 +24,7 @@ $ npm init
 
 Once you have initialized NPM, install express as a dependency with the terminal command
 
-```bash
+```
 $ npm install --save express
 ```
 
@@ -36,7 +36,7 @@ Now `package.json` should show
   }
 ```
 
-The `^4.13.3` might vary because NPM will install the latest stable version.
+*note:* the version number might not match `^4.13.3` because NPM will install the latest stable version of express.
 
 ## Setting up the server
 
@@ -70,11 +70,11 @@ app.get('/github/*', proxyGitHub);
 
 If your app will use the GitHub API, you should also include the `express-request-proxy` package. This lets you ensure that `server.js` will use your GitHub token any time a request is made to GitHub. Do:
 
-```bash
+```
 $ npm install --save express-request-proxy
 ```
 
-## Other Considerations
+## Final steps
 
 1. Create a `routes.js` file where you will specify the callback functions `page.js` should use to handle routing
-2. Be sure to put the `node_modules` directory in your `.gitignore` file. There no need to track those vendor files in git or send them to GitHub since they are all listed in `package.json`
+2. Before you git A-C-P these changes, be sure to put the `node_modules` directory in your `.gitignore` file. There's no need to track those vendor files in git or send them to GitHub since they are all listed in `package.json`
