@@ -14,16 +14,39 @@ Include a `<script>` in `index.html` that links to a CDN
 
 ## Installing express
 
-In your terminal, enter the following commands, in this order:
+In your terminal, navigate to the root of your project and do:
 
 ```bash
 $ npm init
-$ npm install --save express
 ```
 
 `npm init` will prompt you to answer some basic questions about the project and create a `package.json` file. That file will track your answers and keep a list of any dependencies for your project. If you are content with the default answers, you can run `npm init -y` (meaning, say 'yes' to all the questions). You can always edit them later in `package.json`.
 
-Once you have initialized NPM and installed express as a dependency, copy `server.js` from the blog starter code to the root directory of your project. This file will ensure that no matter which route the user requests, `index.html` will still be shown.
+Once you have initialized NPM, install express as a dependency with the terminal command
+
+```bash
+$ npm install --save express
+```
+
+Now `package.json` should show 
+
+```json
+"dependencies": {
+    "express": "^4.13.3"
+  }
+```
+
+The `^4.13.3` might vary because NPM will install the latest stable version.
+
+## Setting up the server
+
+Copy `server.js` from the blog starter code to the root directory of your project. This file will ensure that no matter which route the user requests, `index.html` will still be shown.
+
+Make sure that `package.json` contains the line: 
+
+```json
+"main": "server.js"
+```
 
 If you are **not** using the GitHub API, remove the following references to `express-request-proxy` from `server.js`:
 
