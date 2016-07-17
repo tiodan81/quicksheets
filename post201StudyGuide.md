@@ -31,6 +31,16 @@ A series of short books that give deep, detailed examinations of many important 
 
 A good place to start if you want to learn more about prototypes and inheritance in JS
 
+## JQuery
+
+[JQuery docs](https://jquery.com/)
+
+The full jQuery docs for reference. Also check out [this handy cheatsheet](https://oscarotero.com/jquery/) with links to the docs
+
+[Codeacademy jQuery Tutorial](https://www.codecademy.com/learn/jquery)
+
+Get familiar with the basics of jQuery with interactive exercises
+
 ## Python
 
 [Learn Python the Hard Way](http://learnpythonthehardway.org/)
