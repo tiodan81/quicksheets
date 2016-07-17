@@ -1,5 +1,5 @@
 # Post-301 Learning Resources
-*wherein we list some good articles and videos for you*
+*wherein we collect links to useful resources for your ongoing learning enjoyment*
 
 ## General programming concepts
 [Imperative vs. Declarative Programming](https://medium.com/@tylermcginnis/imperative-vs-declarative-programming-283e96bf8aea#.d93t7em2f)
