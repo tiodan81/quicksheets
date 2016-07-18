@@ -69,6 +69,10 @@
 
 - A short video about Promises, which are great for dealing with async operations.
 
+[JavaScript Promises 101](https://bitsofco.de/javascript-promises-101/)
+
+- An excellent introductory article  about Promises.
+
 ## CSS
 
 [Writing CSS like software engineers](https://www.youtube.com/watch?v=RNRipJvdsyQ)
