@@ -4,6 +4,7 @@
 ## General programming concepts
 [Imperative vs. Declarative Programming](https://medium.com/@tylermcginnis/imperative-vs-declarative-programming-283e96bf8aea#.d93t7em2f)
 
+
 - Declarative programming is all the rage these days, but what is it? This article gives a good answer
 
 ## JavaScript
