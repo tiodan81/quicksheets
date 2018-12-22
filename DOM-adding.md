@@ -1,4 +1,4 @@
-#Adding Something to the DOM
+# Adding Something to the DOM
 
 **We can only add ONE THING AT A TIME.**
 
@@ -11,7 +11,7 @@ This is our existing HTML:
 </div>
 ```
 
-###Steps
+### Steps
 
 1. Make a JavaScript reference (a variable) to the parent element
 2. Create the child element we want to add and save it as a variable
